@@ -1,0 +1,36 @@
+__pycache__/
+.venv/
+data/raw/
+data/standard/
+*.pyc
+.vscode/
+# virtualenv
+.venv/
+venv/
+env/
+__pycache__/
+
+# python build files
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.dist-info/
+
+# data & results
+/data/raw/
+/data/intraday_5m/
+/trading-system/src/data/intraday_5m/
+/trading-system/data/intraday_5m/
+/results/
+/trading-system/results/
+
+# notebooks (optional)
+.notebooks/
+.ipynb_checkpoints/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+
