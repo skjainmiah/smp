@@ -1,0 +1,8 @@
+pandas
+yfinance
+sqlalchemy
+psycopg2-binary
+pydantic
+pandas_market_calendars
+python-dateutil
+schedule
