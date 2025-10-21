@@ -33,4 +33,42 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+cat > .gitignore <<'EOF'
+# Python / env
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# packaging
+*.egg-info/
+*.dist-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Data & results (project-specific - adjust if you keep small seed files)
+data/raw/
+data/intraday_5m/
+data/intraday_5m_daily/
+data/fundamentals/
+results/
+artifacts/
+
+# local logs
+*.log
+
+# secrets
+.env
+secrets.json
+EOF
+
 
